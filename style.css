@@ -1,31 +1,31 @@
-h1 {
-    font-family: "Italiana", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 80px;
-    color: #4A5759;
-    text-align: left;
+header {
     background-color: #B0C4B1;
-    margin-top: 0;
-}
+    color: #0C1D13;
+    font-family: 'Italiana';
+}	
 
+
+
+
+
+
+
+
+/*#EDAFB8- dark pink
+#F7E1D7-peach
+#DEDBD2- concrete
+#B0C4B1- light green
+#4A57590 dark green`
+#0C1D13
+*/
+
+/* main-container {
+    background-color: #B0C4B1;
+    color: #0C1D13;
+    font-family: 'Italiana';
+}
 body {
-    margin: 0;
-    background-color: #DEDBD2 ;
-}
-
-.navbar {
-        text-align: center;
-    }
-
-.navbar li {
-    display: inline-block;
-    }
-    
-.navbar a { 
-    color: #4A5759;
-    text-decoration: none;
-    font-size: 40px;
-    margin: 0 20px;
-    magrin-top: 20px;
-}
+    background-color: #DEDBD2;
+    color: #0C1D13;
+    font-family: 'Italiana';
+} */
