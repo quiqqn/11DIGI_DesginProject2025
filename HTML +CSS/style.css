@@ -58,11 +58,11 @@ h1 a {
 
 
 .container {
-    /* width: 1600px;
-    height: 1000px;  now fits full page but has some space at the bottom for footer */
+    width: 100%;
+    height: 100%;  /* now fits full page but has some space at the bottom for footer */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 90px 260px 260px 260px;
+    grid-template-rows: 1fr 3fr 3fr 3fr; /* 90px 260px 260px 260pxs */
     margin: 0 auto; /* centers the container */
     background-color:#DEDBD2; 
 }
@@ -169,6 +169,22 @@ h1 a {
 .gallery-item:hover{
     transform: scale(1.02);
 }
+
+
+
+/* recipe page */
+.recipe-container{
+    width: 100%;
+    height: 100%;  /* now fits full page but has some space at the bottom for footer */
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr;
+    grid-template-rows: 1fr 1fr 3fr 7fr;
+    margin: 0 auto; /* centers the container */
+    background-color:#DEDBD2; 
+}
+
+
+
 
 
 /* Footer */
