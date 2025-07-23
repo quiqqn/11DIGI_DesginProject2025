@@ -209,7 +209,7 @@ h1 a {
     height: 1040px; /* now fits full page but has some space at the bottom for footer */
     /*height: 1040px;   matches cntainer of home page */
     display: grid;
-    grid-template-columns: 3fr 2fr 4fr;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
     grid-template-rows: 0.5fr 0.5fr 1fr 0.5fr 3fr;
     margin: 0 auto; /* centers the container */
     background-color:#DEDBD2; 
@@ -232,6 +232,14 @@ h1 a {
     margin: 10px;
     border-radius: 8px;
 }
+
+/* fried rice video */
+.video-1{
+    grid-column: 4/6; 
+    grid-row: 1/3;
+}
+
+
 
 .ingredients{
     display: flex;
