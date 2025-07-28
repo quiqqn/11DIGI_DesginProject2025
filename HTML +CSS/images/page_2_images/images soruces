@@ -1,0 +1,71 @@
+Image by <a href="https://pixabay.com/users/grainlatte-10026796/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6691341">grainlatte</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6691341">Pixabay</a>
+udon noodles
+
+
+Image by <a href="https://pixabay.com/users/ahncamera-10947448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3866061">준기 안</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3866061">Pixabay</a>
+fish cake soup
+
+
+Image by <a href="https://pixabay.com/users/jelly-75847/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1607479">jun yang</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1607479">Pixabay</a>
+
+rice cakes
+
+
+kimichi
+Image by <a href="https://pixabay.com/users/bourree-1740347/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2449656">Dongtan Ko</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2449656">Pixabay</a>
+
+
+dumplins1
+Image by <a href="https://pixabay.com/users/cassiethinking-2976007/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2392893">CassieThinking</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2392893">Pixabay</a>
+
+sushi
+Image by <a href="https://pixabay.com/users/drawsandcooks-6719143/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2856545">Kevin Petit</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2856545">Pixabay</a>
+
+<!-- chinese button -->
+        <div class="chinese-button">
+            <!-- image link instead -->
+        </div>
+
+        <!-- japanese button -->
+        <div class="japanese-button">
+
+            <!-- <button>Japanese</button> later first placeholder for layout -->
+        </div>  
+
+        <!-- korean button -->
+        <div class="korean-button">
+
+            <!-- <button>Korean</button> later first placeholder for layout -->
+        </div>
+
+
+
+        /* chinese button */
+.chinese-button {
+    grid-column: 3 / 5; /* right 2 columns */
+    grid-row: 2/3; /* 2nd row */
+    background-color:#B0C4B1;
+    border-radius: 8px;
+    margin: 10px 50px 10px 15px; /* top, right, bottom, left */
+    text-align: center;
+}
+
+/* japanese-button */
+.japanese-button {
+    grid-column: 3 / 5; /* right 2 columns */
+    grid-row: 3/4; /* 3rd row */
+    background-color:#B0C4B1;
+    border-radius: 8px;
+    margin: 10px 50px 10px 15px; /* top, right, bottom, left */
+    text-align: center;
+}
+
+/* korean button */
+.korean-button {
+    grid-column: 3 / 5; /* right 2 columns */
+    grid-row: 4/5; /* 4th row */
+    background-color:#B0C4B1;
+    border-radius: 8px;
+    margin: 10px 50px 20px 15px; /* top, right, bottom, left */
+    text-align: center;
+}
