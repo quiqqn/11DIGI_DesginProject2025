@@ -1,7 +1,7 @@
 body {
     background-color: #DEDBD2;
-    /*color: #0C1D13; */
-    /* font-family: 'Italiana', serif;  */
+    /* font-family: 'Italiana'; */
+    color:#4A5759;
     margin: 0%;
 }
 
@@ -65,7 +65,7 @@ h1 a {
     height: 100%;  /* now fits full page but has some space at the bottom for footer */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 3fr 3fr 3fr; /* 90px 260px 260px 260pxs */
+    grid-template-rows: 0.5fr 2fr 1fr 3fr; /* 90px 260px 260px 260pxs */
     margin: 0 auto; /* centers the container */
     background-color:#DEDBD2; 
 }
@@ -102,7 +102,7 @@ h1 a {
 }
 
 .photo4 {
-    grid-column: 4/52;
+    grid-column: 4/5;
     grid-row: 2/3; 
     background-color: #EDAFB8;
     border-radius: 8px;
@@ -114,35 +114,87 @@ h1 a {
 
 .photo1 img {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: block;
     border-radius: 8px;
-    opacity: 30%;
 }
 
-/* intro text */
-.title-1 {
-    font-size: 20px;
+.photo2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.photo3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.photo4 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* intro text  for all h2 and p styling*/
+h2 {
+    font-size: 25px;
     color: #4A5759;
     text-align: center;
-    flex-wrap: wrap;
     margin: 10px 0;
 }
 
-.intro {
-    font-size: 16px;
+p {
+    font-size: 20px;
     color: #4A5759;
     text-align: center;
-    font-family: itliana;
+    margin: 10px 0px;
 }
 
-
+/* div */
 .introduction-text {
     grid-column: 2 / 4; /* middle 2 columns */
     grid-row: 1/2; /* top little space */
     background-color: #F7E1D7;
     border-radius: 8px;
     margin: 20px 50px 10px 50px; /* top, right, bottom, left */
+}
+
+
+/* purpose */
+.purpose{
+    grid-column: 1/3;
+    grid-row: 3/5;
+    background-color:#B0C4B1;
+    border-radius: 8px;
+    margin: 30px 20px 20px 50px; /* top, right, bottom, left */
+}
+
+.rice{
+    grid-column: 3/5;
+    grid-row: 3/4;
+    background-color:#F7E1D7;
+    border-radius: 8px;
+    margin: 30px 50px 10px 20px; /* top, right, bottom, left */
+}
+
+.img-rice{
+    grid-column: 3/5;
+    grid-row: 4/5;
+    background-color:#EDAFB8;
+    border-radius: 8px;
+    margin: 10px 50px 20px 20px; /* top, right, bottom, left */
+}
+
+.img-rice img{
+    width: 50%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
 }
 
 
@@ -156,25 +208,42 @@ h1 a {
     width: 100%;
     height: 1040px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 1fr 0.5fr ;
+    grid-template-rows: 0.5fr 1fr 3fr 1fr ;
     column-gap: 10px;
     margin: auto;
 }
 
 .chinese1{
-    display: flex;
-    grid-column: 2 / 3; /* MIDDLE COLUMN */
-    grid-row: 1/2; /* TOP ROW */
-    background-color:#F7E1D7;
+    display: inline;
+    grid-column: 2 / 3;  
+    grid-row: 1/2; 
+    background-color:#EDAFB8;
     margin: 10px;
     border-radius: 8px;
 }
 
+.gallery-title {
+    font-size: 25px;
+    color: #4A5759;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.click-to-view {
+    font-size: 20px;
+    color: #4A5759;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
 .text1{
     display: flex;
-    grid-column: 1/4; /* MIDDLE COLUMN */
-    grid-row: 2/3; /* TOP ROW */
+    grid-column: 1/4; 
+    grid-row: 2/3; 
     background-color:#F7E1D7;
+    border-radius: 8px;
+    margin: 0px 50px;
 }
 
 .gallery-item{
@@ -212,7 +281,7 @@ h1 a {
     /*height: 1040px;   matches cntainer of home page */
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 2fr;
-    grid-template-rows: 0.5fr 0.5fr 1fr 0.5fr 3fr;
+    grid-template-rows: 0.5fr 0.5fr 0.3fr 0.4fr 1fr 3fr;
     margin: 0 auto; /* centers the container */
     background-color:#DEDBD2; 
 }
@@ -243,7 +312,7 @@ h1 a {
 }
 
 
-
+/* ingredients div and contents styling */
 .ingredients{
     display: flex;
     grid-column: 2 / 4; /* middle COLUMN */
@@ -251,6 +320,22 @@ h1 a {
     margin: 10px;
     border-radius: 8px;
     background-color: #F7E1D7;
+}
+
+.ingredients-title{
+    padding: 8px;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.one{
+    display: flex;
+    grid-column: 2/4; 
+    grid-row: 4; 
+    padding: 22px;
+    padding: 20px 20px 25px 25px ;   /*top, right, bottom, and left*/
 }
 
 .important-info{
@@ -270,7 +355,7 @@ footer {
     padding: 20px;
     text-align: center;
     color: #0C1D13;
-    font-family: 'Italiana', serif;
+    /* font-family: 'Italiana', serif; */
     position: relative; /* allows footer to be at the bottom */
     bottom: 0; /* sticks to the bottom */
     
