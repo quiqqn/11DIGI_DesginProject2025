@@ -1,7 +1,60 @@
+<<<<<<< HEAD
 
 
 kimichifried Rice
 Image by <a href="https://pixabay.com/users/sharonang-99559/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=241051">Sharon Ang</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=241051">Pixabay</a>
+=======
+<div class="photo2">
+            <img src="images\page_1_images\stirfry.png" alt="Squid stir fry">
+            <p>
+                Image by <a href="https://pixabay.com/users/ahncamera-10947448/?utm_
+                source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3866067">준기 안</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_
+                medium=referral&utm_campaign=image&utm_content=3866067">Pixabay</a>
+            </p>
+        </div> 
+        
+        <div class="photo3">
+            <img src="images\page_1_images\sushi.png" alt="sushi">
+            <p>
+                Image by <a href="https://pixabay.com/users/drawsandcooks-6719143/?utm_source=link-attribution&utm_
+                medium=referral&utm_campaign=image&utm_content=2856545">Kevin Petit</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_
+                campaign=image&utm_content=2856545">Pixabay</a>
+            </p>
+        </div> 
+
+         <div class="photo4">
+            <img src="images\page_1_images\udon.png" alt="udon">
+            <p class="homepg-img">
+               Image by <a href="https://pixabay.com/users/grainlatte-10026796/?utm_
+               source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6691341">grainlatte</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_
+               medium=referral&utm_campaign=image&utm_content=6691341">Pixabay</a>
+            </p>
+        </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> f612cd34060af2ef341be8e71956ebb9e13c7d39
 
 
 
@@ -53,6 +106,19 @@ Image by <a href="https://pixabay.com/users/cassiethinking-2976007/?utm_source=l
 sushi
 Image by <a href="https://pixabay.com/users/drawsandcooks-6719143/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2856545">Kevin Petit</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2856545">Pixabay</a>
 
+
+
+
+suquid stir fry
+
+Image by <a href="https://pixabay.com/users/ahncamera-10947448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3866067">준기 안</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3866067">Pixabay</a>
+
+
+
+
+
+noodels pg 2
+Image by <a href="https://pixabay.com/users/kps7942-1974807/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1168322">hyun chun kim</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1168322">Pixabay</a>
 <!-- chinese button -->
         <div class="chinese-button">
             <!-- image link instead -->

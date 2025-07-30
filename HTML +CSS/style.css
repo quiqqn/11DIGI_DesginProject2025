@@ -95,6 +95,12 @@ h1 a {
     transform: scale(1.02);
 }
 
+
+
+.homepg-img{
+    margin-top: 20px;
+}
+
 /* intro text  for all h2 and p styling*/
 h2 {
     font-size: 25px;
