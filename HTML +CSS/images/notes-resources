@@ -1,3 +1,35 @@
+
+
+kimichifried Rice
+Image by <a href="https://pixabay.com/users/sharonang-99559/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=241051">Sharon Ang</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=241051">Pixabay</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Image by <a href="https://pixabay.com/users/grainlatte-10026796/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6691341">grainlatte</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6691341">Pixabay</a>
 udon noodles
 
@@ -69,3 +101,46 @@ Image by <a href="https://pixabay.com/users/drawsandcooks-6719143/?utm_source=li
     margin: 10px 50px 20px 15px; /* top, right, bottom, left */
     text-align: center;
 }
+
+
+
+
+.photo1 {
+    grid-column: 1 /2;
+    grid-row: 2/3; 
+    background-color: #EDAFB8;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px 20px 10px 50px; /* top, right, bottom, left */
+    transition: transform 0.3s ease-in-out;
+}
+.photo1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+
+
+<!-- purpose -->
+        <div class="purpose">
+            <h2> Purpose:</h2>
+            <p> The purpose of this website is to....</p>
+        </div>
+
+        <!-- best rice -->
+        <div class="rice">
+            <h2> Most popular recipe</h2>
+            <p> Fried Rice </p>
+        </div>
+        
+        <div class="img-rice">
+            <img src="D:\quinn_skl\11DIGI_DesginProject2025\11DIGI_DesginProject2025\HTML +CSS\images\page_2_images\friedrice.jpg" alt="most popular recipe currently">
+            Image by <a href="https://pixabay.com/users/jungyeon-1055977/?utm_source=link-attribution&utm_
+            medium=referral&utm_campaign=image&utm_content=967081">Jungyeon Min</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_
+            medium=referral&utm_campaign=image&utm_content=967081">Pixabay</a>
+
+        </div>
