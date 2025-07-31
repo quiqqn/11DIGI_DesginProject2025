@@ -61,7 +61,47 @@ Image by <a href="https://pixabay.com/users/sharonang-99559/?utm_source=link-att
 
 
 
+.section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-column: 1/5; /* all columns */
+    grid-row: 2/4; /* under welcome */
+    gap: 30px; /* space between items */
+    align-items: center; /* centers items vertically */
+    justify-content: center; /* centers items horizontally */
+    
+}
 
+.photo{
+    display: block;
+    justify-content: space-around;
+    max-width: 420px;
+    height: auto;
+    flex-basis: 100%;
+    border-radius: 8px;
+}
+
+
+.pg2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-column: 1/4; /* all columns */
+    grid-row: 3/4; /* under welcome */
+    align-items: center; /* centers items vertically */
+    justify-content: space-evenly;
+    margin: 0px;
+    /* WHERE IS MY BORDER RADIUS??????? */
+}
+
+.gallery-item{
+    display: block;
+    max-width: 450px;
+    height: auto;
+    flex-basis: 100%;
+    border-radius: 8px;
+}
 
 
 
