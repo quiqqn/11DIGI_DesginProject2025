@@ -1,3 +1,25 @@
+/* @link https://utopia.fyi/type/calculator?c=360,20,1.2,1240,40,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  /* Step -2: 13.8889px → 25.6px */
+  --step--2: clamp(0.8681rem, 0.5686rem + 1.3308vw, 1.6rem);
+  /* Step -1: 16.6667px → 32px */
+  --step--1: clamp(1.0417rem, 0.6496rem + 1.7424vw, 2rem);
+  /* Step 0: 20px → 40px */
+  --step-0: clamp(1.25rem, 0.7386rem + 2.2727vw, 2.5rem);
+  /* Step 1: 24px → 50px */
+  --step-1: clamp(1.5rem, 0.8352rem + 2.9545vw, 3.125rem);
+  /* Step 2: 28.8px → 62.5px */
+  --step-2: clamp(1.8rem, 0.9384rem + 3.8295vw, 3.9063rem);
+  /* Step 3: 34.56px → 78.125px */
+  --step-3: clamp(2.16rem, 1.0461rem + 4.9506vw, 4.8828rem);
+  /* Step 4: 41.472px → 97.6563px */
+  --step-4: clamp(2.592rem, 1.1555rem + 6.3846vw, 6.1035rem);
+  /* Step 5: 49.7664px → 122.0703px */
+  --step-5: clamp(3.1104rem, 1.2617rem + 8.2164vw, 7.6294rem);
+}
+
+
 body {
     background-color: #DEDBD2;
     color:#4A5759;
@@ -12,7 +34,8 @@ header{
 
 h1 {
     color: #4A5759;
-    font-size: 40pt;
+    font-size: var(--step-1);
+    /* font-size: clamp(2.6rem, 2.083vw + 0.5rem, 7rem); */
     padding-left: 1.042vw;
     margin: 0;
 }
@@ -51,12 +74,12 @@ h1 a {
 }
 
 .links ul {
-    display: block;
+    display: inline-block;
     margin-block-start: 0.833vw;
     margin-block-end: 0.833vw;
     margin: 0;
     padding-inline-start: 3.125vw;
-    font-size: 25pt;    
+    font-size: var(--step--1);    
 }
 
 
@@ -92,7 +115,7 @@ h1 a {
 
 .credits-pg1{
     /* font-size: 15pt; */
-    font-size: 1.042vw;
+    font-size: clamp(0.8681rem, 0.5686rem + 1.3308vw, 1.6rem);
 }
 
 .photo:hover{
@@ -103,14 +126,14 @@ h1 a {
 
 /* intro text  for all h2 and p styling*/
 h2 {
-    font-size: 25px;
+    font-size: var(--step--2);
     color: #4A5759;
     text-align: center;
     margin: 10px 0;
 }
 
 p {
-    font-size: 20px;
+    font-size: clamp(0.8681rem, 0.5686rem + 1.3308vw, 1.3rem);
     color: #4A5759;
     text-align: center;
     margin: 10px 0px;
@@ -143,7 +166,7 @@ p {
 }
 
 .purpose h2{
-    font-size: 30px;
+    font-size: var(--step--1);
     margin: 10px;
 }
 .purpose p{
@@ -189,9 +212,9 @@ p {
 .gallery-container {
     width: 100%;
     min-width: 19.792vw;
-    min-height: 100vh; /* container fills the viewport */
+    min-height: 100vh; 
     display: inline-block;
-    margin: 0 auto; /* centers the container */
+    margin: 0 auto; /* centers container */
 }
 
 .chinese1{
@@ -201,12 +224,6 @@ p {
     margin: 0.842vw;
 }
 
-.gallery-title {
-    font-size: 25px;
-    color: #4A5759;
-    text-align: center;
-    margin: 10px 0;
-}
 
 
 .text1{
@@ -215,6 +232,11 @@ p {
     border-radius: 8px;
     padding: 5px;
     margin: 20px 50px;
+    
+}
+
+.text1 p{
+    font-size: clamp(0.8681rem, 0.5686rem + 1.3308vw, 1.3rem);
 }
 
 /* .pg2{
@@ -277,62 +299,142 @@ p {
 }
 
 .recipe-name{
-    display: flex;
-    grid-column: 2 / 3; /* MIDDLE COLUMN */
-    grid-row: 1/2; /* TOP ROW */
-    background-color:#B0C4B1;
-     margin: 10px;
+    background-color:#F7E1D7;
+    padding: 0.875vw;
     border-radius: 8px;
+    margin: 0.842vw;
 }
 
-.recipe-image{
+
+/* Column container */
+.top-row {  
     display: flex;
-   
-    background-color:#EDAFB8;
-    margin: 10px;
-    border-radius: 8px;
+    background-color: #EDAFB890; /* semi-transparent background */
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px; /* space between items */
+    align-items: center; /* centers items vertically */
+    justify-content: center; /* centers items horizontally */
+    padding: 1.082vw;
+    margin: 20px;
+    border-radius: 8px
 }
 
-/* fried rice video */
-.video-1{
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.left {
+  padding: 20px;
+}
+
+/* Main column */
+ .right {
+  padding: 20px;
+} 
+
+
+.img-1{
+    display: inline-block;
+    max-width: 22.875vw;
+    height: auto;
+    border-radius: 8px;
+} 
+
+.img-1:hover{
+    transform: scale(1.10);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+
+
+.checklist {
+    list-style: none;
+    padding: 0px;
+}
+        
+.checklist-item {
+    padding: 5px 0;
+    border-bottom: 1px solid #4A5759;
     display: flex;
+    align-items: center;
+}
     
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+        
+input[type="checkbox"]:checked + label {
+    color: #777;
+    text-decoration: line-through;
 }
 
-
-/* ingredients div and contents styling */
-.ingredients{
-    display: flex;
-    
-    margin: 10px;
-    border-radius: 8px;
-    background-color: #F7E1D7;
-}
-
-.ingredients-title{
-    padding: 8px;
-    font-size: 24px;
-    margin: 0;
-    padding-top: 20px;
-    padding-left: 15px;
-}
-
-.one{
-    display: flex;
-   
-    padding: 22px;
-    padding: 20px 20px 25px 25px ;   /*top, right, bottom, and left*/
-}
 
 .important-info{
-    margin: 10px;
+   background-color:#B0C4B1;
+    padding: 0.875vw;
     border-radius: 8px;
-    display: flex;
-  
-    background-color: #F7E1D7;
+    margin: 0.842vw;
 }
 
 
+.bottom-row{
+    display: flex;
+    background-color:#F7E1D790; /* semi-transparent background */
+    flex-wrap: wrap;
+    align-items: center; /* centers items vertically */
+    justify-content: center; /* centers items horizontally */
+    padding: 1.082vw;
+}
+
+.Video{
+    display: flex;
+    background-color: #B0C4B190;
+    flex-direction: column  ;
+    align-items: center;
+    justify-self: center;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.video1{
+    border-radius: 8px;
+    margin: 10px;
+    align-items: center;
+    justify-self: center;
+    max-width: 100%;
+}
+
+
+.method{
+    align-items: center; /* centers items vertically */
+    justify-content: center; /* centers items horizontally */
+    width: 50%;
+    padding: 50px;
+}
+
+
+.method h2{
+    font-size:var(--step-0) ;
+}
+
+
+.steps{
+    padding-left: 1.5rem;
+    line-height: 1.6;
+}
+
+.steps li{
+    font-size: var(--step--2);
+    margin: 1.42vw;
+}
+
+.steps li::marker{
+    color:#4A5759;
+}
 
 /* Footer */
 footer {
@@ -348,14 +450,6 @@ footer {
     
 }
 
-
-/* .credits2{
-    display: flex;
-    flex-direction: column;
-    grid-column: 1/4;
-    grid-row: 4/5;
-    background-color: #B0C4B1;
-} */
 
 
 
