@@ -387,6 +387,7 @@ input[type="checkbox"]:checked + label {
     align-items: center; /* centers items vertically */
     justify-content: center; /* centers items horizontally */
     padding: 1.082vw;
+    margin-bottom: 20px;
 }
 
 .Video{
@@ -406,6 +407,34 @@ input[type="checkbox"]:checked + label {
     align-items: center;
     justify-self: center;
     max-width: 100%;
+}
+
+
+.video1:hover{
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+
+.OG-author {
+    text-decoration: none;
+    color: #4A5759;
+    font-weight: bold;
+    margin: 0 0.417vw;  /*8px */
+}
+
+.OG-author:hover {
+    text-decoration: underline;
+}
+
+.OG-recipe {
+    text-decoration: none;
+    color: #4A5759;
+    font-weight: bold;
+    margin: 0 0.417vw;  /*8px */
+}
+
+.OG-recipe:hover {
+    text-decoration: underline;
 }
 
 
