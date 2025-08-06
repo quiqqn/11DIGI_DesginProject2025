@@ -1,5 +1,5 @@
 /* @link https://utopia.fyi/type/calculator?c=360,20,1.2,1240,40,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-
+/* utopia.fyi. fluid text scale calculator */
 :root {
   /* Step -2: 13.8889px → 25.6px */
   --step--2: clamp(0.8681rem, 0.5686rem + 1.3308vw, 1.6rem);
