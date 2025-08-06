@@ -46,6 +46,10 @@ h1 a {
     color: inherit;
 }
 
+.h1 a:hover {
+    text-decoration: underline;
+}
+
 .links{
     padding-top: 0.781vw;
     display: flex;
@@ -403,6 +407,7 @@ input[type="checkbox"]:checked + label {
     height: auto;
     border-radius: 8px;
     margin: 10px;
+    padding: 10px;
 }
 
 .video1{
@@ -412,6 +417,15 @@ input[type="checkbox"]:checked + label {
     justify-self: center;
     max-width: 100%;
 }
+
+.video2{
+    border-radius: 8px;
+    margin: 10px;
+    align-items: center;
+    justify-self: center;
+    max-width: 100%;
+}
+
 
 
 .video1:hover{
